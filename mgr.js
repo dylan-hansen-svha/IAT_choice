@@ -4,7 +4,7 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
 
     API.setName('mgr');
     API.addSettings('skip',true);
-	init_data_pipe(API, 'SJkEpXW56fCh',  {file_type:'csv'});	
+	init_data_pipe(API, 'nRYbYR3Nvfil',  {file_type:'csv'});	
 
 
     API.addTasksSet({
@@ -101,6 +101,10 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
 	                    { 
 	                        conditions:[{compare: 'global.choose.questions.choice.response', to: 'genderscience'}],
 	                        data:[{inherit:'genderscience'}]
+	                    },
+	                    { 
+	                        conditions:[{compare: 'global.choose.questions.choice.response', to: 'gendercareer'}],
+	                        data:[{inherit:'gendercareer'}]
 	                    },
 	                    { 
 	                        conditions:[{compare: 'global.choose.questions.choice.response', to: 'native'}],
