@@ -29,7 +29,7 @@ define(['questAPI'], function(Quest){
                         name:'choice',
                         answers : [
 				{text:'Gender science', value:'genderscience'},
-				{text:'Gender career', value:'gendercareer'}
+				{text:'Gender career', value:'race'}
 				/*{text:'Black/White Evaluative', value:'race'},
 				{text:'Age', value:'age'},
 				{text:'Disability', value:'disability'},
