@@ -44,7 +44,7 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
             name: 'genderscience',
             scriptUrl: 'genderscience.js'
         }],
-	gendercareer [{
+	gendercareer: [{
             type: 'time',
             name: 'genderscience',
             scriptUrl: 'exampleQIATgendercareer.js'
