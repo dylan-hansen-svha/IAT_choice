@@ -28,7 +28,8 @@ define(['questAPI'], function(Quest){
                         stem:'Please choose a task to experience', 
                         name:'choice',
                         answers : [
-				{text:'Gender science', value:'genderscience'}
+				{text:'Gender science', value:'genderscience'},
+				{text:'Gender career', value:'gendercareer'}
 				/*{text:'Black/White Evaluative', value:'race'},
 				{text:'Age', value:'age'},
 				{text:'Disability', value:'disability'},
